@@ -1,0 +1,22 @@
+{
+  "name": "stdlib",
+  "version": "0.0.1",
+  "description": "a standard library of polyfills and language enhancements",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadlyicon/stdlibjs.git"
+  },
+  "author": "Jared Grippe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deadlyicon/stdlibjs/issues"
+  },
+  "homepage": "https://github.com/deadlyicon/stdlibjs#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}

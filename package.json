@@ -1,5 +1,5 @@
 {
-  "name": "stdlib",
+  "name": "stdlibjs",
   "version": "0.0.1",
   "description": "a standard library of polyfills and language enhancements",
   "main": "index.js",

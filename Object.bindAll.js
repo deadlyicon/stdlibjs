@@ -11,8 +11,8 @@ if (!Object.bindAll) {
       }
       for (var p in target){
         var value = target[p];
-        if (typeof p === 'function'){
-          target[p] = value.bind(p)
+        if (typeof value === 'function'){
+          target[p] = value.bind(target)
         }
       }
       return undefined;

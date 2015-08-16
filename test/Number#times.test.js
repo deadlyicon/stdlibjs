@@ -1,6 +1,7 @@
 require('../Number#times')
 
 describe('Number#times', function() {
+
   it('loop that many times', function () {
     var results = [];
     (5).times(function(i) { results.push(i); });

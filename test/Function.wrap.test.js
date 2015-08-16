@@ -1,7 +1,5 @@
 require('../Function.wrap')
 
-var expect = require('expect.js');
-
 describe('Function.wrap', function() {
   it('should wrap the function on the given object', function () {
 

@@ -1,7 +1,5 @@
 require('../Object.keys')
 
-var expect = require('expect.js');
-
 describe('Object.keys', function() {
   it('should return an array of the keys of a given object', function () {
 

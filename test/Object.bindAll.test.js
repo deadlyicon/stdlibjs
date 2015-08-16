@@ -1,7 +1,5 @@
 require('../Object.bindAll')
 
-var expect = require('expect.js');
-
 describe('Object.bindAll', function() {
   it('should bind all functions to the target', function () {
 

@@ -1,7 +1,5 @@
 require('../Object.clone')
 
-var expect = require('expect.js');
-
 describe('Object.clone', function() {
   it('should clone the target', function () {
     original = {

@@ -1,7 +1,5 @@
 require('../Function#wrap')
 
-var expect = require('expect.js');
-
 describe('Function#wrap', function() {
   it('should return a function that calls the given function with the origin function as a prepended argument', function () {
 

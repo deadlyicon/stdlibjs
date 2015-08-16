@@ -12,6 +12,6 @@ describe('Object.clone', function() {
     copy = Object.clone(original)
 
     expect(copy).to.not.be(original)
-    expect(copy).to.not.eql(original)
+    expect(copy).to.eql(original)
   });
 });

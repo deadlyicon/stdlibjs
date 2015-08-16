@@ -1,9 +1,12 @@
 /**
- *  Number#times(iterator) -> Number
- *  - iterator (Function): The function to use as a iterator.
+ * Runs the given iterator N times
+ * @module Number
+ * @param {function} iterator
+ * @example
+ *     (2).times(function(){ });
 **/
-Number.prototype.times = function(handler) {
+Number.prototype.times = function(iterator) {
   var index = 0;
-  while(index < this) handler(index++);
+  while(index < this) iterator(index++);
   return this
 };

@@ -1,5 +1,10 @@
-STDLIB = {};
+/**
+ * @project stdlibjs
+ * @author Jared Grippe <jared@jaredgrippe.me>
+ * @license See LICENSE.md file included in this distribution.
+ */
+stdlibjs = {};
 
-STDLIB.VERSION = '0.0.1';
+stdlibjs.VERSION = '0.0.1';
 
-module.exports = STDLIB
+module.exports = stdlibjs

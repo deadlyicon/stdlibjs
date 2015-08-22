@@ -3,8 +3,8 @@ if (!Array.prototype.remove) {
   Array.prototype.remove = function(target) {
     do {
       index = this.indexOf(target)
-      array.splice(index, 1);
+      if (index !== -1) this.splice(index, 1);
     }while(index !== -1)
-    return Object.prototype.toString.call(arg) === '[object Array]';
+    return this;
   };
 }
